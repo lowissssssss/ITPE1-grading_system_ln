@@ -8,6 +8,7 @@ import { LayoutComponent } from './layout.component';
 import { StudentsComponent } from './students/students.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserManagementComponent } from './user-management/user-management.component';
 
 
 
@@ -18,6 +19,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     TeachersComponent,
     TopnavComponent,
     SidenavComponent,
+    UserManagementComponent,
   ],
   imports: [
     CommonModule,

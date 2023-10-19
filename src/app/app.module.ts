@@ -15,7 +15,6 @@ import { LoginModule } from './login/login.module';
 import { RegistrationModule } from './registration/registration.module';
 import { LayoutModule } from './layout/layout.module';
 import { DashboardModule } from './layout/dashboard/dashboard.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LoginModule,
     LayoutModule,
     RegistrationModule,
-    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
