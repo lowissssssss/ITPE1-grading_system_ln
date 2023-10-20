@@ -1,1 +1,24 @@
+<div class="card-container mt-4" [style.background-color]="color">
+    <div *ngIf="name === 'Users'">
+        <i class="bi bi-people-fill text-white"></i>
+    </div>
 
+    <div *ngIf="name === 'Subjects'">
+        <i class="bi bi-book  text-white"></i>
+    </div>
+
+    <div *ngIf="name === 'Total Classes'">
+        <i class="bi bi-highlighter text-white"></i>
+    </div>
+
+    <div *ngIf="name === 'Results'">
+        <i class="bi bi-file-earmark-spreadsheet-fill text-white"></i>
+    </div>
+
+
+    <div  class="card-content">
+        <h4>{{ count }}</h4>
+        <h4>{{ name }}</h4>
+    </div>
+   
+</div>

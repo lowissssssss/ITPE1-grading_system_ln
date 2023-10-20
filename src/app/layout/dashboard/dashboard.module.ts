@@ -14,6 +14,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
   imports: [
     CommonModule,
     DashboardRoutingModule,
+    ComponentsModule
   ]
 })
 export class DashboardModule { }

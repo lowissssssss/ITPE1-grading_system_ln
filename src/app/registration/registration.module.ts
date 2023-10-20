@@ -9,7 +9,7 @@ import { RegistrationRoutingModule } from './registration-routing.module';
 @NgModule({
   declarations: 
   [
-   
+   RegistrationComponent
   ],
   imports: [
     CommonModule,

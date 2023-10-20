@@ -1,1 +1,11 @@
-<p>dashboard works</p>
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h2>Dashboard</h2>
+    </div>
+    <!-- Cards -->
+    <div class="dashobard-cards">
+        <app-card *ngFor="let item of cardData" [name]="item.title" [count]="item.count" [img]="item.img" [color]="item.color"></app-card>
+    </div>
+ 
+    
+</div>
